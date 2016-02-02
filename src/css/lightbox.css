@@ -32,12 +32,18 @@ body.lb-disable-scrolling {
 .lightbox .lb-image {
   display: block;
   height: auto;
-  max-width: inherit;
   border-radius: 3px;
 }
 
 .lightbox a img {
   border: none;
+}
+
+.lb-clone{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    z-index: 99;
 }
 
 .lb-outerContainer {
